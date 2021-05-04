@@ -54,94 +54,59 @@ header .container ul {
   display: none;
 }
 
-.intro-box {
-  text-align: center;
+.content {
+  padding: 1em;
 }
 
-.intro-box .me {
-  margin: 3em;
-  padding: 0;
-}
-
-.intro-box .me .section__greet {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 3em;
-}
-
-.intro-box .me .section__greet--name {
-  font-weight: 700;
-}
-
-.intro-box .me .section__greet--job {
-  margin: 0.75em 1em;
-  font-size: 2.4em;
-  background-color: #038c73;
-}
-
-.intro-box .me .pic-container {
-  overflow: hidden;
-  margin: auto;
-}
-
-.intro-box .about-me {
-  background-color: #2b3040;
+.content img {
   padding: 2em;
+  width: 20em;
 }
 
-.intro-box .about-me h1 {
-  margin: 0;
-  color: #038c73;
-  padding-bottom: 0.5em;
-  font-size: 4em;
-}
-
-.intro-box .about-me p {
-  margin: 0;
-  line-height: 1.2em;
-  font-weight: 100;
-  font-size: 1.2em;
-}
-
-.projects-box {
-  padding: 1.8em;
-  text-align: center;
-}
-
-.projects-box .section__projects--main-title {
-  margin: auto;
-  color: #2b3040;
-  font-size: 4em;
-  padding-bottom: 0.2em;
-}
-
-.projects-box .section__projects--title {
+.content .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 1em;
 }
 
-.projects-box .section__projects--title span {
-  display: none;
-}
-
-.projects-box .section__projects--content {
+.content .project h1 {
   margin: 0;
+  padding: 1em;
+}
+
+.content .project p {
+  margin: 0;
+}
+
+.content .project1 {
+  width: 66%;
+  background-color: #4f638c;
+}
+
+.content .project1 h1 {
+  padding-left: 0;
+}
+
+.content .project1 p {
+  padding: 2em;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.content .project2 {
+  margin-left: 33%;
   margin-bottom: 1em;
-  line-height: 1.2em;
-  font-weight: 100;
-  font-size: 1.2em;
+  background-color: #181c26;
 }
 
-.projects-box .pic-container-java {
-  overflow: hidden;
+.content .project2 h1 {
+  padding-right: 0;
 }
 
-.projects-box .pic-container-blender {
-  overflow: hidden;
-}
-
-.projects-box .see-more {
-  display: none;
+.content .project2 p {
+  padding: 2em;
+  padding-top: 0;
 }
 
 footer {
@@ -150,11 +115,10 @@ footer {
 
 footer .contact-box {
   text-align: center;
-  margin: 0;
-  padding: 1em;
+  padding: 2em;
 }
 
-footer .contact-box .contact-me p {
+footer .contact-box .contact-me a {
   font-size: 1em;
   margin: 0 4em;
   padding: 1em;
@@ -163,7 +127,7 @@ footer .contact-box .contact-me p {
 }
 
 footer .contact-box .social-icon {
-  margin: 0 auto;
+  margin: 0.5em auto;
   padding: 1em 0;
   width: 4em;
 }
@@ -212,113 +176,16 @@ footer .copyright p {
     border-radius: 1em;
     background-color: #4f638c;
   }
-  .intro-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    height: 22em;
-  }
-  .intro-box .me {
-    background-color: #4f638c;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 45em;
-    margin: 2em;
-    margin-left: 0;
-    padding: 2em;
-    padding-left: 0;
-  }
-  .intro-box .me .greeting {
-    margin: 0;
-    padding: 1em 2em;
-  }
-  .intro-box .me .section__greet {
-    margin: 0;
-    padding: 0;
-    font-size: 2.5em;
-  }
-  .intro-box .me .section__greet--name {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-  .intro-box .me .section__greet--job {
-    margin: 1em 0.5em 0.5em;
-    font-size: 2.4em;
-  }
-  .intro-box .me .pic-container {
-    width: 15em;
-    padding: 1em;
-  }
-  .intro-box .about-me {
-    text-align: left;
-    width: 45em;
-    margin: 2em;
-    margin-right: 0;
-    padding: 2em;
-  }
-  .projects-box {
-    background-color: #4f638c;
-  }
-  .projects-box .section__projects--main-title {
-    text-align: left;
-  }
-  .projects-box .section__projects--list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .projects-box .section__project {
-    margin: 0;
-    padding: 1em;
-    padding-right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-  .projects-box .section__project .section__project--text {
-    padding: 1em;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .projects-box .section__project .section__project--text .section__projects--title {
-    margin: 0;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    text-align: left;
-    padding-left: 0em;
-  }
-  .projects-box .section__project .section__project--text .section__projects--title span {
-    display: contents;
-  }
-  .projects-box .section__project .section__project--text .section__projects--content {
-    margin: 0;
-    text-align: left;
-    width: 15em;
-  }
-  .projects-box .section__project img {
-    margin: auto;
-    width: 20em;
-  }
   footer {
     position: absolute;
     width: 100%;
     max-width: 1400px;
     bottom: 0;
   }
-  .contact-box {
+  footer .contact-box {
+    margin: -2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -326,10 +193,11 @@ footer .copyright p {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .contact-box .contact-me {
+  footer .contact-box .contact-me {
     margin: auto;
+    padding-bottom: 0;
   }
-  .copyright {
+  footer .copyright {
     position: absolute;
     bottom: 0;
     right: 0;

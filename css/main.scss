@@ -156,9 +156,9 @@ footer {
     .contact-box {
         text-align: center;
         margin: 0;
-        padding: 1em;
+        padding: 2em;
 
-        .contact-me p {
+        .contact-me a {
             font-size: 1em;
             margin: 0 4em;
             padding: 1em;
@@ -167,7 +167,7 @@ footer {
         }
 
         .social-icon {
-            margin: 0 auto;
+            margin: 0.5em auto;
             padding: 1em 0;
             width: 4em;
         }
@@ -275,6 +275,7 @@ footer {
     }
 
     .projects-box {
+        position: relative;
         background-color: #4f638c;
 
         .section__projects--main-title {
@@ -319,6 +320,14 @@ footer {
                 margin: auto;
                 width: 20em;
             }
+        }
+
+        .see-more {
+            margin: 0;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
         }
     }
 

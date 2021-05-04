@@ -151,10 +151,10 @@ footer {
 footer .contact-box {
   text-align: center;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
 }
 
-footer .contact-box .contact-me p {
+footer .contact-box .contact-me a {
   font-size: 1em;
   margin: 0 4em;
   padding: 1em;
@@ -163,7 +163,7 @@ footer .contact-box .contact-me p {
 }
 
 footer .contact-box .social-icon {
-  margin: 0 auto;
+  margin: 0.5em auto;
   padding: 1em 0;
   width: 4em;
 }
@@ -262,6 +262,7 @@ footer .copyright p {
     padding: 2em;
   }
   .projects-box {
+    position: relative;
     background-color: #4f638c;
   }
   .projects-box .section__projects--main-title {
@@ -311,6 +312,13 @@ footer .copyright p {
   .projects-box .section__project img {
     margin: auto;
     width: 20em;
+  }
+  .projects-box .see-more {
+    margin: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
   footer {
     position: relative;

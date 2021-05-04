@@ -55,97 +55,56 @@ header {
         }
     }
 }
-
-// layout for the greeting and about me section
-.intro-box {
-    text-align: center;
-
-    .me {
-        margin: 3em;
-        padding: 0;
-
-        .section__greet {
-            margin: 0;
-            padding: 0;
-
-            font-weight: 400;
-            font-size: 3em;
-        }
-
-        .section__greet--name {
-            font-weight: 700;
-        }
-
-        .section__greet--job {
-            margin: 0.75em 1em;
-            font-size: 2.4em;
-            background-color: #038c73;
-        }
-
-        .pic-container {
-            overflow: hidden;
-            margin: auto;
-        }
+// Layout of elements to showcase
+.content {
+    padding: 1em;
+    img {
+        padding: 2em;
+        width: 20em;
     }
 
-    .about-me {
-        background-color: #2b3040;
-        padding: 2em;
+    .project {
+        display: flex;
+        margin: 1em;
 
         h1 {
             margin: 0;
-            color: #038c73;
-            padding-bottom: 0.5em;
-            font-size: 4em;
+            padding: 1em;
         }
 
         p {
             margin: 0;
-            line-height: 1.2em;
-            font-weight: 100;
-            font-size: 1.2em;
-        }
-    }
-}
-
-// Layout for the projects showcase section
-.projects-box {
-    padding: 1.8em;
-    text-align: center;
-
-    .section__projects--main-title {
-        margin: auto;
-        color: #2b3040;
-        font-size: 4em;
-        padding-bottom: 0.2em;
-    }
-
-    .section__projects--title {
-        margin: 1em;
-
-        span {
-            display: none;
         }
     }
 
-    .section__projects--content {
-        margin: 0;
+    .project1 {
+        width: 66%;
+        background-color: #4f638c;
+
+        h1 {
+            padding-left: 0;
+        }
+
+        p {
+            padding: 2em;
+            padding-left: 0;
+            padding-top: 0;
+        }
+    }
+
+    .project2 {
+        margin-left: 33%;
         margin-bottom: 1em;
-        line-height: 1.2em;
-        font-weight: 100;
-        font-size: 1.2em;
-    }
+        background-color: #181c26;
 
-    .pic-container-java {
-        overflow: hidden;
-    }
+        h1 {
+            padding-right: 0;
+        }
 
-    .pic-container-blender {
-        overflow: hidden;
-    }
-
-    .see-more {
-        display: none;
+        p {
+            padding: 2em;
+            padding-top: 0;
+        }
     }
 }
 
@@ -155,10 +114,9 @@ footer {
 
     .contact-box {
         text-align: center;
-        margin: 0;
-        padding: 1em;
+        padding: 2em;
 
-        .contact-me p {
+        .contact-me a {
             font-size: 1em;
             margin: 0 4em;
             padding: 1em;
@@ -167,7 +125,7 @@ footer {
         }
 
         .social-icon {
-            margin: 0 auto;
+            margin: 0.5em auto;
             padding: 1em 0;
             width: 4em;
         }
@@ -223,123 +181,28 @@ footer {
         }
     }
 
-    .intro-box {
-        display: flex;
-        justify-content: space-between;
-        height: 22em;
-
-        .me {
-            background-color: #4f638c;
-            display: flex;
-
-            width: 45em;
-            margin: 2em;
-            margin-left: 0;
-            padding: 2em;
-            padding-left: 0;
-
-            .greeting {
-                margin: 0;
-                padding: 1em 2em;
-            }
-
-            .section__greet {
-                margin: 0;
-                padding: 0;
-
-                font-size: 2.5em;
-            }
-
-            .section__greet--name {
-                width: max-content;
-            }
-
-            .section__greet--job {
-                margin: 1em 0.5em 0.5em;
-                font-size: 2.4em;
-            }
-
-            .pic-container {
-                width: 15em;
-                padding: 1em;
-            }
-        }
-
-        .about-me {
-            text-align: left;
-            width: 45em;
-            margin: 2em;
-            margin-right: 0;
-            padding: 2em;
-        }
-    }
-
-    .projects-box {
-        background-color: #4f638c;
-
-        .section__projects--main-title {
-            text-align: left;
-        }
-
-        .section__projects--list {
-            display: flex;
-        }
-
-        .section__project {
-            margin: 0;
-            padding: 1em;
-            padding-right: 0;
-            display: flex;
-            width: fit-content;
-            height: fit-content;
-
-            .section__project--text {
-                padding: 1em;
-                width: fit-content;
-
-                .section__projects--title {
-                    margin: 0;
-                    width: max-content;
-                    text-align: left;
-                    padding-left: 0em;
-
-                    span {
-                        display: contents;
-                    }
-                }
-
-                .section__projects--content {
-                    margin: 0;
-                    text-align: left;
-                    width: 15em;
-                }
-            }
-
-            img {
-                margin: auto;
-                width: 20em;
-            }
-        }
-    }
-
     footer {
         position: absolute;
         width: 100%;
         max-width: 1400px;
         bottom: 0;
-    }
 
-    .contact-box {
-        display: flex;
-        justify-content: space-between;
+        .contact-box {
+            margin: -2em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            display: flex;
+            justify-content: space-between;
 
-        .contact-me {
-            margin: auto;
+            .contact-me {
+                margin: auto;
+                padding-bottom: 0;
+            }
         }
-    }
-    .copyright {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+        .copyright {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
     }
 }

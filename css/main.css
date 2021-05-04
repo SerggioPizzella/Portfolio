@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #4f638c;
+  line-height: 1;
+  max-width: 1200px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header .container {
+  background-color: #181c26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  padding: 1em;
+}
+
+header .container .logo img {
+  width: 3em;
+}
+
+header .container button {
+  width: 3em;
+  height: 3em;
+}
+
+header .container ul {
+  display: none;
+}
+
+.intro-box {
+  text-align: center;
+}
+
+.intro-box .me {
+  margin: 3em;
+  padding: 0;
+  overflow: hidden;
+}
+
+.intro-box .me .section__greet {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 3em;
+}
+
+.intro-box .me .section__greet--name {
+  font-weight: 700;
+}
+
+.intro-box .me .section__greet--job {
+  margin: 0.75em 1em;
+  font-size: 2.4em;
+  background-color: #038c73;
+}
+
+.intro-box .me .pic-container {
+  overflow: hidden;
+  width: 16em;
+  height: 16em;
+  margin: auto;
+}
+
+.intro-box .me .pic-container img {
+  margin-top: -2em;
+  margin-left: -1em;
+  width: 100%;
+}
+
+.intro-box .about-me {
+  background-color: #2b3040;
+  padding: 2em;
+}
+
+.intro-box .about-me h1 {
+  margin: 0;
+  color: #038c73;
+  padding-bottom: 0.5em;
+  font-size: 4em;
+}
+
+.intro-box .about-me p {
+  margin: 0;
+  line-height: 1.2em;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.projects-box {
+  padding: 1.8em;
+  text-align: center;
+}
+
+.projects-box .section__projects--main-title {
+  margin: auto;
+  color: #2b3040;
+  font-size: 4em;
+  padding-bottom: 0.2em;
+}
+
+.projects-box .section__projects--title {
+  margin: 1em;
+}
+
+.projects-box .section__projects--title span {
+  display: none;
+}
+
+.projects-box .section__projects--content {
+  margin: 0;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.projects-box .pic-container-java {
+  overflow: hidden;
+}
+
+.projects-box .pic-container-blender {
+  overflow: hidden;
+}
+
+.projects-box .see-more {
+  display: none;
+}
+
+footer {
+  background-color: #2b3040;
+}
+
+footer .contact-box {
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}
+
+footer .contact-box .contact-me p {
+  font-size: 1em;
+  margin: 0 4em;
+  padding: 1em;
+  border-radius: 10em;
+  background-color: #038c73;
+}
+
+footer .contact-box .social-icon {
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 4em;
+}
+
+footer .copyright {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #8c7251;
+  padding: 0 0.5em 0.1em;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

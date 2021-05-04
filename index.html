@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ICT | Serggio Pizzella</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+        />
+        <meta name="description" content="I'm an ICT student" />
+        <meta name="robots" content="index,follow" />
+        <link rel="icon" href="assets/Main_icon.png" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+    </head>
+
+    <!-- Actual content-->
+    <body>
+        <header>
+            <div class="container">
+                <a class="logo" href="#">
+                    <img src="assets/Main_icon.png" alt="logo" />
+                </a>
+
+                <nav class="nav">
+                    <button
+                        class="nav-toggle"
+                        aria-label="toggle navigation"
+                    ></button>
+
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">AI &amp; UX-design</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">User studies</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Prototyping</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">My projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Credits</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro-box" id="home">
+            <div class="me">
+                <!-- initial hello -->
+                <div class="greeting">
+                    <h1 class="section__greet section__greet--first">
+                        Hi, I am
+                    </h1>
+                    <h1 class="section__greet section__greet--name">
+                        Serggio Pizzella
+                    </h1>
+                    <h2 class="section__greet section__greet--job">
+                        ICT Student
+                    </h2>
+                </div>
+                <div class="pic-container">
+                    <img src="assets/Me.jpg" alt="Picture of Serggio smiling" />
+                </div>
+            </div>
+
+            <!-- about-me block -->
+            <div class="about-me">
+                <h1 class="section__about section__about--title">About me</h1>
+                <p class="section__about section__about--content">
+                    I am a 19-year-old guy, that enjoys almost anything related
+                    to technology. I tend to spend my free time learning about
+                    technology, following tutorials, writing some code, or
+                    simply snooping around the internet. I have interests in
+                    cyber security, game development and 3D modelling, in that
+                    order.
+                </p>
+            </div>
+        </section>
+
+        <!-- My projects -->
+        <section class="projects-box">
+            <!-- Title -->
+            <h1 class="section__projects section__projects--main-title">
+                My projects
+            </h1>
+
+            <!-- Actual Projects -->
+            <ul class="section__projects section__projects--list">
+                <!--Java project-->
+                <li class="section__ projects section__project">
+                    <h2 class="section__projects--title">
+                        <span>Java - </span>Random artist
+                    </h2>
+                    <p class="section__projects--content">
+                        This project is a project that randomly generates
+                        landscape images. The images are inspired by the blocky
+                        and low resolution nature of Minecraft, even the way the
+                        code is generated is inspired by Minecraft, in that the
+                        terrain for the image is constructed chuck by chunk.
+                    </p>
+                    <div class="pic-container-java">
+                        <img
+                            src="assets/minecraft.png"
+                            alt="minecraft like landscape"
+                        />
+                    </div>
+                </li>
+
+                <!-- Blender project -->
+                <li class="section__ projects section__project">
+                    <h2 class="section__projects--title">
+                        <span>Blender - </span>Mistic sword
+                    </h2>
+                    <p class="section__projects--content">sinopsis</p>
+                    <div class="pic-container-blender">
+                        <img
+                            src="assets/SwordRender02.png"
+                            alt="mistic sword made in blender"
+                        />
+                    </div>
+                </li>
+            </ul>
+            <p class="see-more">see more...</p>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="contact-box">
+                <div class="contact-me">
+                    <p>Contact me</p>
+                </div>
+
+                <ul class="social-list">
+                    <li class="social-icon">
+                        <a class="social-list__link" href="#"
+                            ><img src="assets/Octocat.png" alt="github logo"
+                        /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; copyright, Serggio Pizzella. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

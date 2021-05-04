@@ -83,15 +83,7 @@ header .container ul {
 
 .intro-box .me .pic-container {
   overflow: hidden;
-  width: 16em;
-  height: 16em;
   margin: auto;
-}
-
-.intro-box .me .pic-container img {
-  margin-top: -2em;
-  margin-left: -1em;
-  width: 100%;
 }
 
 .intro-box .about-me {

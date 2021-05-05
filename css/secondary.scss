@@ -105,6 +105,19 @@ header {
             padding: 2em;
             padding-top: 0;
         }
+
+        form {
+            margin: 1em;
+
+            .bottom {
+                display: flex;
+            }
+
+            .submit-btn {
+                margin: 1em;
+                padding: 1em;
+            }
+        }
     }
 }
 
@@ -182,13 +195,13 @@ footer {
     }
 
     footer {
-        position: absolute;
+        position: relative;
         width: 100%;
         max-width: 1400px;
         bottom: 0;
 
         .contact-box {
-            margin: -2em;
+            margin: 1em;
             margin-bottom: 0;
             padding-bottom: 0;
             display: flex;

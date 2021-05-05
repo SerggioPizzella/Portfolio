@@ -109,6 +109,21 @@ header .container ul {
   padding-top: 0;
 }
 
+.content .project2 form {
+  margin: 1em;
+}
+
+.content .project2 form .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .project2 form .submit-btn {
+  margin: 1em;
+  padding: 1em;
+}
+
 footer {
   background-color: #2b3040;
 }
@@ -177,13 +192,13 @@ footer .copyright p {
     background-color: #4f638c;
   }
   footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-width: 1400px;
     bottom: 0;
   }
   footer .contact-box {
-    margin: -2em;
+    margin: 1em;
     margin-bottom: 0;
     padding-bottom: 0;
     display: -webkit-box;

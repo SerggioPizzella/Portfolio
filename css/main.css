@@ -322,6 +322,7 @@ footer .copyright p {
   }
   footer {
     position: relative;
+    margin-top: 1em;
   }
   .contact-box {
     display: -webkit-box;
